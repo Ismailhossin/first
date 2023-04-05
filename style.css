@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+/* genareal css */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    color: gray;
+}
+
+/* header */
+.header-section{
+    background-image: url("images/portfolio images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.head-text h1{   
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.head-text h1 span{
+    color: #F5A91D;
+}
+
+.head-text{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.head-text img{
+    width: 100%;
+}
+.head-text a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #faa78b, #ff4d2e);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* banner */
+.banner{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    
+}
+.banner img{
+    width: 100%;
+   
+}
+.dream{
+    background: url("images/portfolio images/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.banner a{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #faa78b, #f33e1e);
+    text-decoration: none;
+}
+.experience{
+    background-image: url("images/portfolio images/exp-bg.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-area{
+    width: 35%;
+    float: left;
+    margin-left: 6%;   
+    margin-bottom: 50px;
+    padding: 20px 35px;
+    box-shadow: 10px 10px 40px grey;
+}
+.box-area h3{
+    color: #faa78b;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#faa78b, #f33e1e);
+    border-image-slice: 1;
+}
+#full-stac{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0004f8, #39e6dd);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
