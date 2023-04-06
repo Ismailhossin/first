@@ -4,11 +4,131 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+*{
+    margin: 0;
+}
+
+h1{
+    font-size: 40px;
+    margin: 30px 0;
+}
+h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 p{
     color: gray;
 }
-
 /* header */
+.header-area{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.hiff-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.hiff-width h1 span{
+    color: orange;    
+}
+.hiff-width a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(45deg, #FA9D81, #FE5A3C);
+    padding: 10px 25px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.hiff-width img{
+    width: 100%;
+}
+/* banner */
+
+.banner-area{
+    background: url("images/dream-bg.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.hiff-parsein{
+    width: 38%;
+    float: left;
+    margin-left: 5%;
+    height: auto;
+}
+.hiff-parsein img{
+    width: 100%;
+    height: auto;
+}
+.hiff-parsein h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.hiff-parsein h5{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.hiff-parsein a{
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(45deg, #FA9D81, #FE5A3C);
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/* about */
+
+.about-area{
+    background: url("images/exp-bg.png");
+    height: 350px;
+    background-repeat: no-repeat;
+
+}
+.hiff-about{
+    width: 38%;
+    margin-left: 6%;
+    padding: 40px 25px;
+    float: left;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 25px black;
+    
+}
+.hiff-about h4{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ff4827, #f3a289);
+    border-image-slice: 1;
+}
+#border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #1216ff, #0affff);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0 0 20px;
+    margin-bottom: -10px;
+
+}
+/*p{
+    color: gray;
+}
+
+header
 .header-section{
     background-image: url("images/portfolio images/top-banner.png");
     height: 500px;
@@ -42,7 +162,7 @@ p{
 
 }
 
-/* banner */
+ banner
 .banner{
     width: 35%;
     float: left;
@@ -101,4 +221,4 @@ footer p{
     font-size: 20px;
     text-transform: uppercase;
 }
-
+/*
